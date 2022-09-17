@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar css */
+#navbar{
+    display: flex;
+    top: 0px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+/* navbar logo and image */
+#logo{
+    display: flex;
+    
+    
+}
+#joinus{
+   display: flex;
+   flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+#joinusbtn{
+    background-color: #5689C0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 4px;
+    width: 54px;
+    height: 24px;
+    
+}
+#navbar::before{
+    position: absolute;
+    background-color: white;
+    z-index: -1;
+    opacity: 0.4;
+    height: 100%;
+    width: 100%;
+    content: "";
+}
+/* navbar its ul */
+#navbar ul{
+    display: flex;
+    align-items: center;
+    margin: auto
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 3vh;
+    padding: 2rem;
+}
+#navbar ul li a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: #5689C0;
+}
+/* home */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 20px;
+    height: 570px;;
+    /* align-items: center; */
+    padding-left: 3vw;
+    justify-content: center;
+    background-color: #5689C0;
+}
+#doubtcontainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #5689C0;
+    height: 200px;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+}
+#doubtbox{
+    background-color: black;
+}
